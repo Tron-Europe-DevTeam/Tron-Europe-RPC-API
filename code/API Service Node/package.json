@@ -1,0 +1,24 @@
+{
+  "name": "tepa",
+  "version": "1.0.0",
+  "description": "Tron Europe Performance API",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon api.js"
+  },
+  "author": "Tron Europe DevTeam",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "pg": "^7.5.0",
+    "request": "^2.88.0",
+    "request-repeat": "0.0.7",
+    "response-time": "^2.3.2",
+    "save": "^2.3.2"
+  }
+}
